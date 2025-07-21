@@ -65,6 +65,21 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+/* Estilo para a lista de participantes */
+.activity-card ul {
+  margin: 8px 0 0 18px;
+  padding-left: 0;
+  list-style-type: disc;
+}
+
+.activity-card li {
+  margin-bottom: 3px;
+  font-size: 15px;
+  color: #333;
+  word-break: break-all;
+  /* Para emails longos não quebrarem layout */
+}
+
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
